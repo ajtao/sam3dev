@@ -1,0 +1,15 @@
+# SAM3 output masks (large .npy files, ~3.7GB for 350 frames)
+examples/*/sam3_output/
+examples/*/sam3_bbox_output/
+examples/*/output/
+
+# Resized videos (generated during SAM3 inference)
+*_resized.mp4
+
+# Logs
+*.log
+log.txt
+
+# Python
+__pycache__/
+*.pyc
